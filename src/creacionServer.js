@@ -52,7 +52,7 @@ app.use((req, res, next) => {
 //Control de credenciales
 
 app.use('/users',require('./routes/users'));
-
+//app.use('/users',require('./routes/users'));
 
 
 
